@@ -1,0 +1,60 @@
+/* CSS Styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #c7e0cd;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-family: 'Questrial', sans-serif;
+  font-size: 24px;
+  color: #88b9b5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d7bf97;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input:focus, textarea:focus {
+  border-color: #a1c9c0;
+  outline: none;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #88b9b5;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #a1c9c0;
+}
